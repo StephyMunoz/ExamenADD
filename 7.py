@@ -29,7 +29,7 @@ try:
 except ConnectionFailure as e:
     print('MongoDB Atlas connection: failed', e)
     
-DBc=CLIENT['xiaomi3']
+DBc=CLIENT['elecciones_2021']
 
 for db in DBc:
     try:
